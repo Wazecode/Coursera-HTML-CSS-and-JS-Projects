@@ -1,0 +1,22 @@
+@font-face{
+    font-family: 'comic-neue-regular';
+    src: url('../fonts/ComicNeue-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'comic-neue-bold';
+    src: url('../fonts/ComicNeue-Bold.ttf')
+
+}
+*{
+    font-family: 'comic-neue-regular';
+}
+
+h1,h2{
+    font-family: 'comic-neue-bold';
+}
+
+h1{
+    text-align: center;
+    padding: 2.5%;
+}
