@@ -10,6 +10,7 @@
 }
 *{
     font-family: 'comic-neue-regular';
+    box-sizing: border-box;
 }
 
 h1,h2{
@@ -19,4 +20,28 @@ h1,h2{
 h1{
     text-align: center;
     padding: 2.5%;
+}
+
+h2{
+    font-size: 175%;
+}
+
+/*----Header style------*/
+header{
+    background: #777;
+    border-bottom: black solid 3px;
+}
+
+header h2{
+    padding:10px 0px 1px 20px ;
+}
+/*----------------------*/
+
+/*------Box Bkgrd-------*/
+
+
+.row div{
+    background: #aaa;
+    padding: 15px;
+    border: 10px solid #fff;
 }
