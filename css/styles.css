@@ -38,10 +38,16 @@ header h2{
 /*----------------------*/
 
 /*------Box Bkgrd-------*/
-
+.navbar{
+    background: #aaa;
+}
 
 .row div{
     background: #aaa;
     padding: 15px;
     border: 10px solid #fff;
+}
+
+.row{
+    margin: 1%;
 }
